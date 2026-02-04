@@ -10,7 +10,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open("sonar_model.sav", "rb"))
+model = pickle.load(open("Sonar ML Project/sonar_model.sav", "rb"))
 
 # App title
 st.title("🔍 Sonar Rock vs Mine Prediction")
@@ -33,4 +33,5 @@ if st.button("Predict"):
         st.success("🔵 The object is a **Rock**")
 
     
+
 
